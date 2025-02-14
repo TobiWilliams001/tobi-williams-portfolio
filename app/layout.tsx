@@ -36,6 +36,7 @@ export const metadata: Metadata = {
     site: "@tobiwilliams",
     cardType: "summary_large_image",
   },
+    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -56,3 +57,6 @@ export default function RootLayout({
   )
 }
 
+
+
+import './globals.css'
