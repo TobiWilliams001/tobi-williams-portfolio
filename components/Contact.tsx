@@ -1,9 +1,9 @@
 "use client"
 
+import type React from "react"
 import { useState } from "react"
 import { motion } from "framer-motion"
 import dynamic from "next/dynamic"
-import type React from "react" // Import React
 
 const MapComponent = dynamic(() => import("./MapComponent"), {
   ssr: false,
