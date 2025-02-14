@@ -1,7 +1,6 @@
 "use client"
 
 import { motion } from "framer-motion"
-import Image from "next/image"
 
 export default function About() {
   return (
@@ -24,13 +23,9 @@ export default function About() {
             transition={{ duration: 0.5, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <Image
-              src="/tobi-profile.jpg"
-              alt="Tobi Williams"
-              width={400}
-              height={400}
-              className="rounded-lg shadow-xl"
-            />
+            <div className="w-full h-64 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center">
+              <span className="text-gray-400 dark:text-gray-300">Profile Image Placeholder</span>
+            </div>
           </motion.div>
           <motion.div
             className="md:w-1/2 md:pl-8"
