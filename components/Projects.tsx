@@ -1,7 +1,6 @@
 "use client"
 
 import { motion } from "framer-motion"
-import Image from "next/image"
 import { useState } from "react"
 import Link from "next/link"
 
@@ -103,13 +102,9 @@ export default function Projects() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
             >
-              <Image
-                src={project.image || "/placeholder.svg"}
-                alt={project.title}
-                width={400}
-                height={200}
-                className="w-full h-48 object-cover"
-              />
+              <div className="h-48 bg-gray-200 dark:bg-gray-600 flex items-center justify-center">
+                <span className="text-gray-400 dark:text-gray-300">Image Placeholder</span>
+              </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">{project.title}</h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">{project.description}</p>
