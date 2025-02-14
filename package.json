@@ -64,7 +64,6 @@
     "vue": "latest",
     "vue-router": "latest",
     "@emotion/is-prop-valid": "latest",
-    "chart.js": "latest",
     "prop-types": "latest",
     "expo": "latest",
     "three": "latest",
@@ -73,12 +72,13 @@
     "react-native": "latest",
     "expo-file-system": "latest",
     "@react-three/fiber": "latest",
+    "chart.js": "latest",
     "leaflet": "latest",
     "@vercel/analytics": "latest",
     "framer-motion": "latest",
-    "react-chartjs-2": "latest",
     "react-type-animation": "latest",
     "@react-three/drei": "latest",
+    "react-chartjs-2": "latest",
     "react-leaflet": "latest"
   },
   "devDependencies": {
